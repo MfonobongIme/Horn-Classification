@@ -11,7 +11,7 @@ This system is designed to classify different types of horn based on their sound
 - numpy
 
 ## Usage
-1. Run the `train.py` file to train the model using the provided dataset (`horn_data.csv`). The dataset should contain sound recordings of horns in the form of .wav files, and corresponding labels indicating the type of horn.
+1. Run the `horn-classifier.ipynb` file to train the model using the provided dataset. The dataset should contain sound recordings of horns in the form of .wav files, and corresponding labels indicating the type of horn.
 2. Run the `predict.py` file to classify a new sound recording of a horn. Input the file path of the sound recording as prompted.
 3. Run the `test.py` file to evaluate the performance of the model using a test dataset.
 
